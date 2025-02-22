@@ -74,19 +74,19 @@
 //! This version uses the standard implementation and does not yet implement
 //! optimizations. Therefore, it is not the fastest implementation available.
 
-mod argon2;
-mod block;
-mod common;
-mod config;
-mod context;
-mod core;
-mod decoded;
-mod encoding;
-mod error;
-mod memory;
-mod result;
-mod variant;
-mod version;
+pub mod argon2;
+pub mod block;
+pub mod common;
+pub mod config;
+pub mod context;
+pub mod core;
+pub mod decoded;
+pub mod encoding;
+pub mod error;
+pub mod memory;
+pub mod result;
+pub mod variant;
+pub mod version;
 
 pub use crate::argon2::*;
 pub use crate::config::Config;
